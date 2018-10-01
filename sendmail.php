@@ -1,6 +1,6 @@
 <?php
 
-$para      = 'contact@indev.com.ar';
+$para      = 'contacto@indevla.com';
 $titulo    = 'Contact from web page: '.$_POST['subj'];
 $mensaje   = $_POST['mesj'];
 
