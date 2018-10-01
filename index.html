@@ -50,11 +50,11 @@
 	<div id="wrapper">
 		<header id="home">
 			<div id="maximage" class="maximage-slider">
-				<img src="assets/img/demo/1.png" alt=""/>
-				<img src="assets/img/demo/2.png" alt="" />
-				<img src="assets/img/demo/3.png" alt="" />
+				<img src="assets/img/demo/1.jpg" alt=""/>
+				<img src="assets/img/demo/2.jpg" alt="" />
+				<img src="assets/img/demo/3.jpg" alt="" />
 				<!--<img src="assets/img/demo/4.png" alt="" />-->
-				<img src="assets/img/demo/5.png" alt="" />
+				<img src="assets/img/demo/4.jpg" alt="" />
 			</div>
 			<div class="pattern"></div>
 			<div class="home-wrapper">
@@ -99,12 +99,12 @@
 					<img src="./assets/img/flags/ES16.png" id="espFlag">
 				</li>
 				<li class="active"><a href="#home" class="tr" key="home">Home</a></li>
-				<li><a href="#about" class="tr" key="about">About</a></li>
-				<li><a href="#team" class="tr" key="team">Team</a></li>
+				<li><a href="#about" class="btn tr" data-scroll="#about" key="about">About</a></li>
+				<li><a href="#team" class="btn tr" data-scroll="#team" key="team">Team</a></li>
 				<!--<li><a href="#portfolio">Portfolio</a></li>-->
-				<li><a href="#clients" class="tr" key="clients">Clients</a></li>
+				<li><a href="#clients" class="btn tr" data-scroll="#clients" key="clients">Clients</a></li>
 				<!--<li><a href="#blog">Blog</a></li>-->
-				<li><a href="#contact" class="tr" key="contact">Contact</a></li>
+				<li><a href="#contact" class="btn tr" data-scroll="#contact" key="contact">Contact</a></li>
 			</ul>		
 		</nav>
 		<section id="about">
@@ -185,6 +185,7 @@
 						<!--	<p>Lorem ipsum Ut est anim et adipisicing Excepteur Duis culpa quis proident esse sunt est nisi.</p>-->
 						<!--</div>-->
 					</div>
+					<!--
 					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<div class="team" data-animate="fade-in-top" data-delay="200">
 							<div class="team-photo">
@@ -207,7 +208,7 @@
 									<!--		<i class="fa fa-dribbble"></i>-->
 									<!--	</a>-->
 									<!--</li>-->
-								</ul>
+							<!--</ul>
 							</div>
 							<p class="team-name">Mauricio</p>
 							<p class="team-type tr" key="profetion">Web Developer</p>
@@ -236,13 +237,14 @@
 									<!--		<i class="fa fa-dribbble"></i>-->
 									<!--	</a>-->
 									<!--</li>-->
-								</ul>
+							<!--</ul>
 							</div>
 							<p class="team-name">Sergio</p>
 							<p class="team-type tr" key="profetion">Web Developer</p>
 							<p class="tr" key="Sergio">Developer Web, I like work with new technologies and tendencies also I like football.</p>
 						</div>
 					</div>
+					-->
 					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<!--<div class="team" data-animate="fade-in-top" data-delay="400">-->
 						<!--	<div class="team-photo">-->
@@ -511,7 +513,7 @@
 		</section>
 		<!---->
 		<!---->
-		<section id="clients" class="parallax" style="background-image: url(assets/img/demo/4.png);">
+		<section id="clients" class="parallax" style="background-image: url(assets/img/demo/5.jpg);">
 			<div class="pattern"></div>
 			<div class="container page">
 				<div class="section-title">
@@ -553,36 +555,14 @@
 							</div>
 						</div> -->
 					</div>
-					<!-- <div class="row">
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-							<div class="client" data-animate="fade-in">
-								<a href="#" class="inner">
-									<img src="assets/img/demo/logos/twitter.png" alt="" />
-								</a>
+					<div class="row">
+						<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="client btn-primary" data-animate="fade-in">
+								Maderas El Gaucho
+								
 							</div>
 						</div>
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-							<div class="client" data-animate="fade-in">
-								<a href="#" class="inner">
-									<img src="assets/img/demo/logos/behance.png" alt="" />
-								</a>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-							<div class="client" data-animate="fade-in">
-								<a href="#" class="inner">
-									<img src="assets/img/demo/logos/loreal.png" alt="" />
-								</a>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-							<div class="client" data-animate="fade-in">
-								<a href="#" class="inner">
-									<img src="assets/img/demo/logos/sony.png" alt="" />
-								</a>
-							</div>
-						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</section>
@@ -737,6 +717,9 @@
 					</div>
 					<div class="phone-number" data-animate="fade-in-top">
 						<h2>+549-264-5-095-890</h2>
+					</div>
+					<div class="phone-number" data-animate="fade-in-top">
+						<h2>+549-264-5-445-779</h2>
 					</div>
 					<div class="company-address" data-animate="fade-in-top">
 						<h2 class="tr" key="location">Indev Company, Caucete<br />San Juan, Argentina</h2>
